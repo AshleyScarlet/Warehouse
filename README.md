@@ -11,7 +11,7 @@
 
 ### MOD
 
-#### [鎖チョーカー]()
+#### [鎖チョーカー](https://github.com/AshleyScarlet/Warehouse/blob/main/ChainChoker.md)
 
 ----
 
