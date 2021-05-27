@@ -8,7 +8,7 @@
 - DynBoneEdit (必須ではないけど無いと揺れボーンの調整ができません) 
   
 ## ダウンロード
-[こちら]()からどうぞ  
+[こちら](https://github.com/AshleyScarlet/Warehouse/releases/download/ChainChoker.1.0.0/ChainChoker.zip)からどうぞ  
 COM3D2 ver.1.55で動作確認しています
   
 ## 説明
