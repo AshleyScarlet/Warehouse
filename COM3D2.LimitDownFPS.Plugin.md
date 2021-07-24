@@ -4,7 +4,7 @@
 ~~設定ファイルを用意するのが面倒だったので~~ 非アクティブ時のFPSを変える場合はソースを直接書き換えてください
 
 ## ダウンロード
-[こちら](https://github.com/AshleyScarlet/Warehouse/blob/main/COM3D2.LimitDownFPS.md)からどうぞ  
+[こちら](https://github.com/AshleyScarlet/Warehouse/releases/download/LimitDownFPS.1.0.0/COM3D2.LimitDownFPS.Plugin.dll)からどうぞ  
 バージョンは何でも動くと思います（カスメでも動きそう）  
 FPS制限を解除するプラグイン等とは相性が悪いかもしれません  
 
