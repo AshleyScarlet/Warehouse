@@ -10,6 +10,7 @@
 
 #### [COM3D2.CustomResolutionScreenShot.Plugin](https://github.com/AshleyScarlet/COM3D2.CustomResolutionScreenShot.Plugin)
 #### [COM3D2.LegacyEditBGM.Patcher](https://github.com/AshleyScarlet/COM3D2.LegacyEditBGM.Patcher)
+#### [COM3D2.LimitDownFPS.Plugin](https://github.com/AshleyScarlet/Warehouse/blob/main/COM3D2.LimitDownFPS.Plugin.md)
 
 
 ### MOD
