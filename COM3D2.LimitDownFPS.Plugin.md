@@ -28,7 +28,7 @@ namespace COM3D2.LimitDownFPS.Plugin
                 prevTargetFrameRate = UnityEngine.Application.targetFrameRate;
 
                 // 非アクティブ時のFPS
-                // デフォルト :  prevTargetFrameRate / 2 (アクティブ自の半分)
+                // デフォルト :  prevTargetFrameRate / 2 (アクティブ時の半分)
                 value = prevTargetFrameRate / 2;
             }
             UnityEngine.Application.targetFrameRate = value;
