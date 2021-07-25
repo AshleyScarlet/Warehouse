@@ -1,7 +1,7 @@
 VisualStudioでオダメ向けのプラグインをビルドできるようにするcsprojファイル  
 ほぼ自分向けですがご自由にどうぞ  
 
-```xml
+```csproj
 <Project Sdk="Microsoft.NET.Sdk" InitialTargets="BuildCOM3D2Plugin" DefaultTargets="BuildCOM3D2Plugin">
 
 	<PropertyGroup>
