@@ -21,7 +21,7 @@
 ### その他
 
 #### [ShapeAnimatorConfigSorter](https://github.com/AshleyScarlet/ShapeAnimatorConfigSorter)
-
+#### [COM3D2.PluginTemplate.csproj](https://github.com/AshleyScarlet/Warehouse/blob/main/COM3D2.PluginTemplate.csproj.md)
   
 ----
   
