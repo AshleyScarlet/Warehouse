@@ -16,27 +16,22 @@ namespace COM3D2.LimitDownFPS.Plugin
     [UnityInjector.Attributes.PluginVersion("1.0.0")]
     public sealed class LimitDownFPS : UnityInjector.PluginBase
     {
+        private static int prevTargetFrameRate = -1;
         private void OnApplicationFocus(bool hasFocus)
         {
-            int value;
-            if (hasFocus)
-            {
-                value = prevTargetFrameRate == -1 ? UnityEngine.Application.targetFrameRate : prevTargetFrameRate;
-            }
-            else
+            int value = prevTargetFrameRate;
+            if (!hasFocus)
             {
                 prevTargetFrameRate = UnityEngine.Application.targetFrameRate;
 
-                // 非アクティブ時のFPS
-                // デフォルト :  prevTargetFrameRate / 2 (アクティブ時の半分)
-                value = prevTargetFrameRate / 2;
+                if (prevTargetFrameRate == -1)
+                    value = 30;　                     // 無制限だった場合はとりあえず30にしておく
+                else
+                    value = prevTargetFrameRate / 2;  // 非アクティブ時のFPSを決定する
             }
             UnityEngine.Application.targetFrameRate = value;
         }
-
-        private static int prevTargetFrameRate = -1;
     }
 }
-
 ```
 🤔
